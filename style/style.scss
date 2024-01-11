@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+
+// fonts variables
+$title_font: "GFS Didot", serif;
+$text_font: "Raleway", sans-serif;
+$text_italic: "Lora", serif;
+// color variables
+$color_text: white;
+$bg-color: #290e07;
+$navbar-text: #7c3000;
+$orange: #a94519;
+
+h1,
+h3,
+h2 {
+  color: $color_text;
+  --bs-emphasis-color: #{$color_text};
+}
+
+// current page's sass
+body {
+  box-sizing: border-box;
+  background: url("../assets/images/sunset_group.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+  font-family: $text_font;
+  background-color: $bg-color;
+}
+
+.navbar {
+  color: $color_text;
+  height: 10vh;
+  .container-fluid {
+    height: 100%;
+    a {
+      height: 100%;
+      #logo {
+        height: 100%;
+        cursor: pointer;
+      }
+    }
+    .title {
+      height: 100%;
+      h1 {
+        font-size: 2rem;
+        color: $color_text;
+        font-weight: 100;
+        font-family: $title_font;
+        margin: 0;
+      }
+      h2 {
+        font-size: 1.5rem;
+        color: $color_text;
+        font-weight: 200;
+      }
+    }
+    .navbar-toggler {
+      border-color: $color_text;
+    }
+    .nav-link {
+      color: $color_text;
+      font-weight: 600;
+    }
+    .active {
+      background-color: $color_text;
+      color: $bg-color;
+    }
+  }
+}
+
+main {
+  min-height: 70vh;
+  margin-top: 0;
+  transition: margin-top 0.5s ease-in-out;
+  .container {
+    .row {
+      justify-content: center;
+      color: $color_text;
+      .big-logo {
+        opacity: 0.25;
+        max-width: 75%;
+      }
+      .title-main-page {
+        --bs-emphasis-color: #{$color_text};
+        font-family: $title_font;
+      }
+
+      a {
+        background-color: none;
+        border: 1px solid $color_text;
+        color: $color_text;
+        font-weight: bold;
+
+        &:hover {
+          background: $color_text;
+          color: $bg-color;
+          border: 1px solid $color_text;
+        }
+      }
+    }
+  }
+}
+//  ajout de classe au main conditionnel
+.menu-expanded {
+  margin-top: 25vh;
+}
+// sass du footer commun à touites les pages
+footer {
+  height: 5vh;
+  border: none;
+  span {
+    color: $color_text;
+  }
+  ul {
+    height: 100%;
+  }
+  .bi {
+    color: $color_text;
+    padding-right: 2rem;
+  }
+}
+
+// overriding BS
+// overriding bootstrap on btn-primary class
+.btn {
+  --bs-btn-font-weight: bold;
+}
+.btn-primary {
+  --bs-btn-color: #{$color_text};
+  --bs-btn-bg: none;
+  --bs-btn-border-color: #{$color_text};
+  --bs-btn-hover-color: #{$bg-color};
+  --bs-btn-hover-bg: #{$color_text};
+  --bs-btn-hover-border-color: #{$bg-color};
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #{$bg-color};
+  --bs-btn-active-bg: #{$color_text};
+  --bs-btn-active-border-color: #{$color_text};
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #{$color_text};
+}
+// ovveridng bootstrap on border's color
+.border {
+  --bs-border-color: #{$color_text};
+}
+
+// overriding bs on toggler btn
+.navbar-dark {
+  --bs-navbar-color: #{$color_text};
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-active-color: #{$color_text};
+  --bs-navbar-brand-color: #{$color_text};
+  --bs-navbar-brand-hover-color: #fff;
+  --bs-navbar-toggler-border-color: #{$color_text};
+}
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='#{$color_text}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.card {
+  --bs-card-border-color: #{$color_text};
+  --bs-card-bg: none;
+  height: 55vh;
+  .card-img-top {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .card-body {
+    flex-direction: column;
+    height: 60%;
+    overflow: hidden;
+    .head-title {
+      color: $color_text;
+      font-family: $title_font;
+    }
+    .card-title {
+      color: $color_text;
+      font-family: $title_font;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .capitalize {
+      text-transform: uppercase;
+    }
+    .card-text {
+      color: $color_text;
+    }
+    .card-content {
+      flex-grow: 1;
+      overflow: hidden;
+      max-height: 10vh;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+.border-bottom .border-top {
+  --bs-border-color: #{$color_text};
+}
+
+// sass de la page qui suis-je
+
+.ego {
+  width: 80vw;
+  .ego-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: black;
+    padding: 0.7rem;
+    text-align: center;
+    font-family: $text_italic;
+  }
+  .row {
+    .ego-text {
+      p {
+        color: $color_text;
+        text-align: justify;
+      }
+    }
+    .ego-img {
+      img {
+        border: 10px solid $color_text;
+        max-height: 30vh;
+      }
+    }
+    .ego-big-text {
+      margin: 2rem;
+      .ego-big-title {
+        font-family: $text_italic;
+      }
+      h2 {
+        color: $orange;
+        padding: 0.7rem;
+        border-radius: 5rem;
+        text-align: center;
+        font-family: $text_italic;
+      }
+    }
+  }
+}
+
+// penser à remettre de l'ordre dans le sass
+
+// scss de la page index.php de la section admin
+.admin {
+  .admin-sidebar {
+    .admin-logo {
+      width: 20%;
+      cursor: pointer;
+    }
+  }
+}
+
+// scss de la page login
+.login {
+  width: 80%;
+  h1 {
+    color: $color_text;
+  }
+  form {
+    label {
+      color: $color_text;
+    }
+  }
+}
+
+// sass du formulaire
+
+.form-control {
+  border: $color_text;
+}
+
+//  ne pas oublier d'overriding bootstrap pour le formulaire
+
+// scss de la page evenements
+.event {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.7rem;
+  text-align: center;
+  font-family: $text_italic;
+}
+// sass de la page admin
+
+// sass de la page souvenirs
+
+.front-image {
+  img {
+    border: 10px solid $color_text;
+  }
+}

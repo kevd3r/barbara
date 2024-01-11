@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+h1,
+h3,
+h2 {
+  color: white;
+  --bs-emphasis-color: white;
+}
+
+body {
+  box-sizing: border-box;
+  background: url("../assets/images/sunset_group.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #290e07;
+}
+
+.navbar {
+  color: white;
+  height: 10vh;
+}
+.navbar .container-fluid {
+  height: 100%;
+}
+.navbar .container-fluid a {
+  height: 100%;
+}
+.navbar .container-fluid a #logo {
+  height: 100%;
+  cursor: pointer;
+}
+.navbar .container-fluid .title {
+  height: 100%;
+}
+.navbar .container-fluid .title h1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 100;
+  font-family: "GFS Didot", serif;
+  margin: 0;
+}
+.navbar .container-fluid .title h2 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 200;
+}
+.navbar .container-fluid .navbar-toggler {
+  border-color: white;
+}
+.navbar .container-fluid .nav-link {
+  color: white;
+  font-weight: 600;
+}
+.navbar .container-fluid .active {
+  background-color: white;
+  color: #290e07;
+}
+
+main {
+  min-height: 70vh;
+  margin-top: 0;
+  transition: margin-top 0.5s ease-in-out;
+}
+main .container .row {
+  justify-content: center;
+  color: white;
+}
+main .container .row .big-logo {
+  opacity: 0.25;
+  max-width: 75%;
+}
+main .container .row .title-main-page {
+  --bs-emphasis-color: white;
+  font-family: "GFS Didot", serif;
+}
+main .container .row a {
+  background-color: none;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+}
+main .container .row a:hover {
+  background: white;
+  color: #290e07;
+  border: 1px solid white;
+}
+
+.menu-expanded {
+  margin-top: 25vh;
+}
+
+footer {
+  height: 5vh;
+  border: none;
+}
+footer span {
+  color: white;
+}
+footer ul {
+  height: 100%;
+}
+footer .bi {
+  color: white;
+  padding-right: 2rem;
+}
+
+.btn {
+  --bs-btn-font-weight: bold;
+}
+
+.btn-primary {
+  --bs-btn-color: white;
+  --bs-btn-bg: none;
+  --bs-btn-border-color: white;
+  --bs-btn-hover-color: #290e07;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: #290e07;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #290e07;
+  --bs-btn-active-bg: white;
+  --bs-btn-active-border-color: white;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: white;
+}
+
+.border {
+  --bs-border-color: white;
+}
+
+.navbar-dark {
+  --bs-navbar-color: white;
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-active-color: white;
+  --bs-navbar-brand-color: white;
+  --bs-navbar-brand-hover-color: #fff;
+  --bs-navbar-toggler-border-color: white;
+}
+
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.card {
+  --bs-card-border-color: white;
+  --bs-card-bg: none;
+  height: 55vh;
+}
+.card .card-img-top {
+  width: 100%;
+  height: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.card .card-body {
+  flex-direction: column;
+  height: 60%;
+  overflow: hidden;
+}
+.card .card-body .head-title {
+  color: white;
+  font-family: "GFS Didot", serif;
+}
+.card .card-body .card-title {
+  color: white;
+  font-family: "GFS Didot", serif;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.card .card-body .capitalize {
+  text-transform: uppercase;
+}
+.card .card-body .card-text {
+  color: white;
+}
+.card .card-body .card-content {
+  flex-grow: 1;
+  overflow: hidden;
+  max-height: 10vh;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.border-bottom .border-top {
+  --bs-border-color: white;
+}
+
+.ego {
+  width: 80vw;
+}
+.ego .ego-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.7rem;
+  text-align: center;
+  font-family: "Lora", serif;
+}
+.ego .row .ego-text p {
+  color: white;
+  text-align: justify;
+}
+.ego .row .ego-img img {
+  border: 10px solid white;
+  max-height: 30vh;
+}
+.ego .row .ego-big-text {
+  margin: 2rem;
+}
+.ego .row .ego-big-text .ego-big-title {
+  font-family: "Lora", serif;
+}
+.ego .row .ego-big-text h2 {
+  color: #a94519;
+  padding: 0.7rem;
+  border-radius: 5rem;
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+.admin .admin-sidebar .admin-logo {
+  width: 20%;
+  cursor: pointer;
+}
+
+.login {
+  width: 80%;
+}
+.login h1 {
+  color: white;
+}
+.login form label {
+  color: white;
+}
+
+.form-control {
+  border: white;
+}
+
+.event {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+  padding: 0.7rem;
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+.front-image img {
+  border: 10px solid white;
+}/*# sourceMappingURL=style.css.map */
