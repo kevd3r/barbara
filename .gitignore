@@ -1,0 +1,63 @@
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de configuration spécifiques à l'éditeur
+.vscode/
+.phpstorm.meta.php
+.idea/
+
+# Ignorer les fichiers de configuration du système
+*.sublime-project
+*.sublime-workspace
+
+# Ignorer les fichiers de sauvegarde et les fichiers temporaires
+*~
+*.swp
+*.swo
+*.bak
+
+# Ignorer les fichiers de logs et de caches
+/log/
+/logs/
+/cache/
+/caches/
+
+# Ignorer les fichiers de dépendances Node.js
+/node_modules/
+
+# Ignorer les fichiers de dépendances Composer (PHP)
+/vendor/
+
+# Ignorer les fichiers de construction
+/build/
+/dist/
+
+# Ignorer les fichiers de configuration spécifiques à l'environnement
+.env
+.env.local
+.env.*.local
+
+# Ignorer les fichiers de configuration personnalisés
+config.php
+/config/
+
+# Ignorer les fichiers de sortie des outils de build et des tests
+npm-debug.log
+yarn-error.log
+error_log
+coverage/
+
+# Ignorer les fichiers texte
+*.txt
+
+# Ignorer les images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignorer les fichiers d'archive
+*.zip
+*.tar.gz
+
