@@ -88,7 +88,9 @@ main {
         --bs-emphasis-color: #{$color_text};
         font-family: $title_font;
       }
-
+      .citation{
+        font-family: $text_italic;
+      }
       a {
         background-color: none;
         border: 1px solid $color_text;

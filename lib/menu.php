@@ -13,12 +13,6 @@ $mainMenu = [
     "head_title"=>"B.Jost - Pour qui ?",
     "meta_description" => "Pour toute demande de thérapie voulue"
   ],
-  "evenements.php"=>
-  [
-    "title"=>"Evenements",
-    "head_title"=> "B.Jost - Evènements",
-    "meta_description"=> "Stages et ateliers pour tous"
-  ],
   "pour_quoi.php"=>
   [
     "title" => "Pour quoi?",
@@ -30,6 +24,12 @@ $mainMenu = [
     "title"=>"Qui suis-je ?",
     "head_title"=> "B.Jost - Qui suis-je ?",
     "meta_description"=> "Mon parcours, mon chemin, le tantra"
+  ],
+  "evenements.php"=>
+  [
+    "title"=>"Evènements",
+    "head_title"=> "B.Jost - Evènements",
+    "meta_description"=> "Stages et ateliers pour tous"
   ],
   "souvenirs.php"=>
   [

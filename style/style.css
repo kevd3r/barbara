@@ -77,6 +77,9 @@ main .container .row .title-main-page {
   --bs-emphasis-color: white;
   font-family: "GFS Didot", serif;
 }
+main .container .row .citation {
+  font-family: "Lora", serif;
+}
 main .container .row a {
   background-color: none;
   border: 1px solid white;

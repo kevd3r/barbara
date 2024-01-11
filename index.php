@@ -19,11 +19,11 @@ $events = getEvents($pdo,_HOME_EVENTS_LIMIT_);
       <h2 class="title-main-page display-5 fw-bold text-body-emphasis lh-1 mb-3">J'ose être qui je suis !</h2>
       <p class="lead">Tantra ou tentera pas ?</p>
       <p class="course">
-        Thérapie brève, individuelle ou de couple, stage, voyage initiatique,... Les supports sont
+        Thérapie brève, individuelle ou de couple, <strong>conférences et supervisions</strong>, stage, voyage initiatique,... Les supports sont
         nombreux et vous trouverez celui qui vous convient pour vous déployer. Les points communs
-        entre toutes ces prises
-        en charge sont : la bienveillance, le partage, la joie et la bonne humeur.
+        entre tous ces accompagnements sont : la bienveillance, le partage, la joie et la bonne humeur.
       </p>
+      <p class="citation">"Le corps doit être écouté, aimé. Aimer veut dire ne rien savoir, ne rien vouloir." Eric Baret</p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <a href="./evenements.php" aria-label="learn much about the events i organize" class="btn btn-primary btn-lg px-4 me-md-2">Découvrir</a>
       </div>

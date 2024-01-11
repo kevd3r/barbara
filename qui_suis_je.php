@@ -6,8 +6,8 @@ require_once __DIR__ . '/templates/header.php';
   <h1 class="ego-title my-5 text-center">Qui suis-je ?</h1>
   <div class="row justify-content-center">
     <div class="ego-text col-lg-7 col-sm-12 my-auto">
-      <p>Psychologue clinicienne, thérapeute psycho corporel et transgénérationnelle,
-        formatrice animatrice de stages mixtes, voyages initiatiques dans le désert et de stages Femmes.
+      <p>Depuis <strong>20 ans</strong> je suis psychologue clinicienne, thérapeute psychocorporel et transgénérationnel,
+        formatrice animatrice de stages mixtes, de voyages initiatiques dans le désert et de stages Femmes.
       </p>
 
     </div>
@@ -51,7 +51,7 @@ require_once __DIR__ . '/templates/header.php';
       <img src="./assets/images/out_of_the_maze.jpg" alt="barbara's portrait by the sea" class="img-fluid">
     </div>
     <div class="ego-big-text">
-      <h2>Ma mission : cultiver la joie d’être.</h2>
+      <h2>Ma mission : cultiver la joie d’être</h2>
     </div>
     <div class="ego-img col-md-4 p-0 text-center">
       <img src="./assets/images/dunes_serenity.jpg" alt="barbara's portrait by the sea" class="img-fluid">
@@ -68,7 +68,7 @@ require_once __DIR__ . '/templates/header.php';
         Guidée par la légèreté et l’humilité je prends part au jeu de la Vie.
         Je sens de plus en plus le lien entre le jeu la joie et la jouissance.
         C’est ce que j’ai envie de transmettre. 
-        Bien à vous. » </p>
+        Bien à vous.</p>
     </div>
 
   </div>
