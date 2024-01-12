@@ -25,17 +25,31 @@ $genders = getGenders($pdo);
 
 
 if (isset($_GET['id'])) {
-  $eventData = getEventById($pdo, $_GET['id']);
+  $event = getEventById($pdo, $_GET['id']);
   if ($event === false) {
     $errors[] = "L'évènement n'existe pas !";
-  } else {
-    $event =  array_merge($event,$eventData);
   }
   $pageTitle = "Formulaire modification d'un évènement";
 } else {
   $pageTitle = "Formulaire d'ajout d'un événement";
 }
-
+// @todo gérer la gestion des erreurs sur les champs (champ vide etc ...)
+if (isset($_POST['saveEvent'])) {
+  // Validation des champs obligatoires
+  $requiredFields = ['title', 'category_id', 'gender_id', 'date_debut', 'date_fin', 'location', 'content'];
+  foreach ($requiredFields as $field) {
+    if (empty($_POST[$field])) {
+      $errors[] = "Le champ $field est obligatoire.";
+    }
+  }
+}
+  // Validation des dates
+  $dateFields = ['date_debut', 'date_fin'];
+  foreach ($dateFields as $field) {
+    if (!empty($_POST[$field]) && !strtotime($_POST[$field])) {
+      $errors[] = "Le champ $field doit être une date valide.";
+    }
+  }
 // @todo gérer la gestion des erreurs sur les champs (champ vide etc ...)
 if (isset($_POST['saveEvent'])) {
   $filename = null;
@@ -65,8 +79,9 @@ if (isset($_POST['saveEvent'])) {
       if (isset($_POST['delete_image'])) {
         // Si on a coché la case de suppression d'image, on supprime l'image
         unlink(dirname(__DIR__) . _EVENTS_IMAGES_FOLDER_ . $_POST['image']);
+        $filename=null;
       } else {
-        $filename = $_POST['image'];
+        $filename = isset($_POST['image']) ? $_POST['image'] : null;
       }
     }
   }
@@ -103,7 +118,6 @@ if (isset($_POST['saveEvent'])) {
       $_POST["content"],
       $filename,
       $id);
-
     if ($res) {
       $messages[] = "L'article a bien été sauvegardé";
       //On vide le tableau article pour avoir les champs de formulaire vides
@@ -145,7 +159,7 @@ if (isset($_POST['saveEvent'])) {
   <form method="post" enctype="multipart/form-data">
     <div class="form-group">
       <label for="title">Titre:</label>
-      <input type="text" class="form-control" id="title" name="title" value="<?=$event['title']; ?>">
+      <input type="text" class="form-control" id="title" name="title" value="<?=$event['title']; ?>" >
     </div>
     <div class="form-group">
       <label for="category" class="form-label">Catégorie:</label>
@@ -183,7 +197,7 @@ if (isset($_POST['saveEvent'])) {
       <label for="image">Image:</label>
       <input type="file" class="form-control" id="file" name="file">
     </div> -->
-    <?php if (isset($_GET['id']) && isset($event['image'])&& !empty($event['image'])) { ?>
+        <?php if (isset($_GET['id']) && isset($event['image']) && !empty($event['image'])) { ?>
             <p>
                 <img src="<?= _EVENTS_IMAGES_FOLDER_ . $event['image'] ?>" alt="<?= $event['title'] ?>" width="100">
                 <label for="delete_image">Supprimer l'image</label>

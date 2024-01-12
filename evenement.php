@@ -40,9 +40,12 @@ $endDate = date("d-m-Y", strtotime($event['date_fin']));
       </div>
       <div class="col-lg-6">
         <h3 class="event head-title"><?= htmlentities($category['name']); ?></h3>
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3"><?= htmlentities($event['title']) ?></h1>
+        <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 event-title capitalize">
+          <?= htmlentities($event['title']) ?>
+        </h2>
         <h5>Stage <?= htmlentities(" " . $gender['name']) ?></h5>
         <h5>Du <?= htmlentities(" " . $startDate . " ") ?> Au <?= htmlentities(" " . $endDate . " ") ?></h5>
+        <h6 class="card-title"><?= htmlentities($event["location"]) ?></h6>
         <p class="lead"><?= htmlentities($event["content"]) ?></p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <a href="/evenements.php" class="btn btn-primary btn-lg px-4 me-md-2">Evénements</a>

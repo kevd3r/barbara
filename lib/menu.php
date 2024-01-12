@@ -41,7 +41,8 @@ $mainMenu = [
   [
     "title"=>"Login",
     "head_title"=> "Connexion",
-    "meta_description"=> "Dashboard"
+    "meta_description"=> "Dashboard",
+    "exlude"=>"true"
   ]
 ];
 

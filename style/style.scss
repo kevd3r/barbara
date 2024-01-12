@@ -290,6 +290,13 @@ footer {
   text-align: center;
   font-family: $text_italic;
 }
+.capitalize{
+  text-transform: uppercase;
+  font-family: $title_font;
+}
+.event-title{
+  font-size: 2rem;
+}
 // sass de la page admin
 
 // sass de la page souvenirs
@@ -298,4 +305,16 @@ footer {
   img {
     border: 10px solid $color_text;
   }
+}
+
+.link{
+  --bs-text-opacity:0; 
+  &:hover{
+    transform: scale(1.1);
+    color: $color_text;
+  }
+}
+.custom-text-color{
+  color: $orange;
+  font-size: 1.5rem;
 }

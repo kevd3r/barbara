@@ -22,7 +22,7 @@ SET time_zone = "+00:00";
 --
 
 -- Supprimer la base de données si elle existe déjà (à des fins de réinitialisation)
-DROP DATABASE IF EXISTS nom_de_votre_base_de_donnees;
+-- DROP DATABASE IF EXISTS nom_de_votre_base_de_donnees;
 
 -- Créer une nouvelle base de données
 CREATE DATABASE nom_de_votre_base_de_donnees;

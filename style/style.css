@@ -254,6 +254,28 @@ footer .bi {
   font-family: "Lora", serif;
 }
 
+.capitalize {
+  text-transform: uppercase;
+  font-family: "GFS Didot", serif;
+}
+
+.event-title {
+  font-size: 2rem;
+}
+
 .front-image img {
   border: 10px solid white;
+}
+
+.link {
+  --bs-text-opacity:0;
+}
+.link:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.custom-text-color {
+  color: #a94519;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
