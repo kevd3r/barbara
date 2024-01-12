@@ -2,6 +2,7 @@
 require_once __DIR__ . '/../lib/config.php';
 require_once __DIR__ . '/../lib/session.php';
 // on va récupérer ce qui se passe dans l'URL : on pourrait avec $_GET, on va le faire avec $_SERVER
+
 $currentPage = basename($_SERVER["SCRIPT_NAME"]);
 ?>
 
@@ -50,8 +51,6 @@ $currentPage = basename($_SERVER["SCRIPT_NAME"]);
           <div class="col-md-3 text-end">
             <?php if (isset($_SESSION['user'])) { ?>
               <a href="logout" class="php btn btn-primary">Déconnexion</a>
-            <?php } else { ?>
-              <a href="login.php" class="btn btn-outline-primary me-2">Connexion</a>
             <?php } ?>
           </div>
         </div>

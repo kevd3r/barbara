@@ -11,13 +11,15 @@ $mainMenu = [
   [
     "title"=>"Pour qui ?",
     "head_title"=>"B.Jost - Pour qui ?",
-    "meta_description" => "Pour toute demande de thérapie voulue"
+    "meta_description" => "Pour toute demande de thérapie voulue à La Rochelle, en Nouvelle Aquitaine,
+    stages, ateliers, voyages initiatiques"
   ],
   "pour_quoi.php"=>
   [
     "title" => "Pour quoi?",
     "head_title" => "B.Jost - Pour quoi ?",
-    "meta_description" => "Thérapies individuelles ou de couple, inspiration tantrique"
+    "meta_description" => "Thérapies individuelles ou de couple, inspiration tantrique, conférences,
+     supervisions thérapeutiques, pour prendre soin de soi"
   ],
   "qui_suis_je.php"=>
   [
@@ -36,13 +38,5 @@ $mainMenu = [
     "title"=>"Souvenirs",
     "head_title"=>"Souvenirs des ateliers",
     "meta_description"=>"Souvenirs des stages, ateliers et voyages initiatiques, commentaires et liens vers mes amis"
-  ],
-  "login.php"=>
-  [
-    "title"=>"Login",
-    "head_title"=> "Connexion",
-    "meta_description"=> "Dashboard",
-    "exlude"=>"true"
   ]
 ];
-

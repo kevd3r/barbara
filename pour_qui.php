@@ -10,7 +10,7 @@ require_once __DIR__ . '/templates/header.php';
       <p>Pour toi, homme ou femme, adulte ou adolescent, couple ou famille.</p>
       <p>Pour toi qui es humain en chemin,</p>
       <p>Pour toi qui as envie d’un pas de plus vers toi,
-      <p> pour toi qui souhaites t’ouvrir
+      <p>Pour toi qui souhaites t’ouvrir
         pleinement à ta vie,</p>
       <p>Pour toi qui aspires à t’aimer dans ta globalité.</p>
 
