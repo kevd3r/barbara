@@ -50,7 +50,7 @@ $currentPage = basename($_SERVER["SCRIPT_NAME"]);
           </ul>
           <div class="col-md-3 text-end">
             <?php if (isset($_SESSION['user'])) { ?>
-              <a href="logout" class="php btn btn-primary">Déconnexion</a>
+              <a href="./logout.php" class="php btn btn-primary">Déconnexion</a>
             <?php } ?>
           </div>
         </div>
