@@ -22,7 +22,7 @@ $currentPage = basename($_SERVER["SCRIPT_NAME"]);
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-xl navbar-dark bg-none p-1 border-bottom col-xxl-10 m-auto" aria-label="Fifth navbar example">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-none p-1  col-xxl-10 m-auto border-bottom" aria-label="Fifth navbar example">
       <div class="container-fluid ">
         <a href="./index.php"><img src="./assets/components/logo_def.png" alt="logo" id="logo"></a>
         <div class="title ps-sm-3 pt-2">
@@ -34,7 +34,7 @@ $currentPage = basename($_SERVER["SCRIPT_NAME"]);
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample05">
+        <div class="collapse navbar-collapse mt-2" id="navbarsExample05">
           <ul class="navbar-nav nav-pills mb-2 mb-lg-0 list-ul ms-lg-auto">
 
 

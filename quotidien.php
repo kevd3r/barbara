@@ -12,13 +12,13 @@ require_once __DIR__ . '/templates/header.php';
       <p>A Angoulins ou par Skype.</p>
       <p>Pour connaître le passé, et ses loyautés,</p>
       <p>Pour vivre libre dans son présent,</p>
-      <p>Pour trouver l’espace de bienveillance, et se regarder sans complaisance,</p>
-      <p>Pour mettre à jour les héritages inconscient que tu portes,</p>
+      <p>Pour trouver l’espace de bienveillance, et te regarder sans complaisance,</p>
+      <p>Pour mettre à jour les héritages inconscients que tu portes,</p>
       <p>Pour donner du sens à tes expériences de vie,</p>
       <p>Pour apprendre à te dire en entier,</p>
       <p>Pour communiquer avec toi,</p>
       <p>Pour communiquer dans ton couple,</p>
-      <p>Pour communiquer dans ta famille et comprendre le système familial.</p>
+      <p>Pour communiquer dans ta famille et comprendre ton système familial.</p>
     </div>
     <div class="daily-img col-md-4 p-0 text-center m-5">
       <img src="./assets/images/quotidien_1.jpg" alt="cabinet de consultation de Barbara Jost" class="img-fluid">

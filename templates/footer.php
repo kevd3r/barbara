@@ -7,7 +7,7 @@
       <i class="bi bi-telephone fs-2"></i>
     </a>
     <a href="./index.php" aria-label="let's go back to the homepage" class="m-auto"><i class="bi bi-house fs-1"></i></a>
-    <a class="text-body-secondary m-auto" aria-label="suivez-moi sur facebook" href="https://www.facebook.com/barbara.jost.9">
+    <a class="text-body-secondary m-auto" aria-label="suivez-moi sur facebook" href="https://www.facebook.com/barbara.jost.9" target="_blank" rel="noopener noreferrer">
       <i class="bi bi-facebook fs-2"></i>
     </a>
   </div>
