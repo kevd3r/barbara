@@ -18,7 +18,7 @@ require_once __DIR__ . '/templates/header.php';
       <p>Pour apprendre à te dire en entier,</p>
       <p>Pour communiquer avec toi,</p>
       <p>Pour communiquer dans ton couple,</p>
-      <p>Pour communiquer dans ta famille et comprendre le système.</p>
+      <p>Pour communiquer dans ta famille et comprendre le système familial.</p>
     </div>
     <div class="daily-img col-md-4 p-0 text-center m-5">
       <img src="./assets/images/quotidien_1.jpg" alt="cabinet de consultation de Barbara Jost" class="img-fluid">
@@ -30,7 +30,7 @@ require_once __DIR__ . '/templates/header.php';
       <img src="./assets/images/quotidien_2.jpg" alt="barbara's portrait by the sea" class="img-fluid">
     </div>
     <div class="daily-text col-lg-7 col-sm-12 my-auto">
-      <h2 class="daily-big-title pt-sm-2 text-center">
+      <h2 class="daily-big-title pt-sm-2 text-center mb-3">
         Supervisions
       </h2>
 
@@ -48,7 +48,7 @@ require_once __DIR__ . '/templates/header.php';
         <a href="https://annuaire.action-sociale.org/?p=foyer-departem--de-l-enfance-170782718&details=caracteristiques" target="_blank" rel="noopener noreferrer" class="p-2 m-0">Foyer de l'Enfance de Saintes</a>
         <a href="https://www.sosve.org/village-de-charente/" target="_blank" rel="noopener noreferrer" class="p-2 m-0">SOS Villages d'Enfants</a>
         <a href="https://www.larochelle.fr/vie-quotidienne/famille/inscription-en-accueil-de-loisirs-municipal-et/ou-associatif" target="_blank" rel="noopener noreferrer" class="p-2 m-0">Centres de loisirs de La Rochelle</a>
-        <a href="https://alprado.fr/ehpad-la-mirambelle" target="_blank" rel="noopener noreferrer" class="p-2 m-0">EHAPD de Mirambeau</a>
+        <a href="https://alprado.fr/ehpad-la-mirambelle" target="_blank" rel="noopener noreferrer" class="p-2 m-0">EHPAD de Mirambeau</a>
         <a href="https://tremplin17.fr/votre-situation/migrants/" target="_blank" rel="noopener noreferrer" class="p-2 m-0">Foyer de Migrants à Saintes</a>
       </div>
     </div>
@@ -57,7 +57,7 @@ require_once __DIR__ . '/templates/header.php';
 
   <div class="row justify-content-center my-5">
     <div class="daily-text col-lg-7 col-sm-12 my-auto">
-      <h3 class="daily-big-title pt-sm-2 text-center">
+      <h3 class="daily-big-title pt-sm-2 text-center mb-3">
         Conférences et formations
       </h3>
       <div class="daily-text">

@@ -9,6 +9,10 @@ require_once __DIR__ . '/templates/header.php';
     <div class="ego-text col-lg-7 col-sm-12 my-auto">
       <p>Pour toi, homme ou femme, adulte ou adolescent, couple ou famille.</p>
       <p>Pour toi qui es humain en chemin,</p>
+      <p>Pour toi qui a tout pour être heureux mais ne l’est pas pleinement,</p>
+      <p>Pour toi qui te pose des questions,</p>
+      <p>Pour toi qui manque parfois d’énergie vitale,</p>
+      <p>Pour toi qui est plus dans ta tête que dans ton corps,</p>
       <p>Pour toi qui as envie d’un pas de plus vers toi,
       <p>Pour toi qui souhaites t’ouvrir
         pleinement à ta vie,</p>

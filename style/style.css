@@ -213,6 +213,14 @@ footer .bi {
   border: 10px solid white;
   max-height: 30vh;
 }
+.ego .row #ego-change-color {
+  color: white;
+}
+@media screen and (max-width: 1440px) {
+  .ego .row #ego-change-color {
+    color: #a94519;
+  }
+}
 .ego .row .ego-big-text {
   margin: 2rem;
 }

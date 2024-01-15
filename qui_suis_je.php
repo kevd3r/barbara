@@ -7,17 +7,21 @@ require_once __DIR__ . '/templates/header.php';
   <div class="row justify-content-center">
     <div class="ego-text col-lg-7 col-sm-12 my-auto">
       <p>Depuis <strong>20 ans</strong> je suis psychologue clinicienne, thérapeute psychocorporel et transgénérationnel,
-        formatrice animatrice de stages mixtes, de voyages initiatiques dans le désert et de stages Femmes.
+        formatrice animatrice de stages mixtes, de voyages initiatiques dans le désert et de stages femmes.
       </p>
 
     </div>
     <div class="ego-img col-md-4 p-0 text-center">
       <img src="./assets/images/portrait.jpg" alt="barbara's portrait by the sea" class="img-fluid">
     </div>
+    <div class="ego-big-text">
+        <h2 id="ego-change-color">Une femme en chemin</h2>
+      </div>
     <div class="row mt-5">
       <div class="ego-img col-md-4 p-0 text-center">
         <img src="./assets/images/meditation.jpg" alt="barbara's portrait by the sea" class="img-fluid">
       </div>
+      
       <div class="ego-text col-lg-7 col-sm-12 my-auto">
         <p>
           Petite, je dansais, je chantais, j’étais insouciante jusqu’à ce que deux accidents graves

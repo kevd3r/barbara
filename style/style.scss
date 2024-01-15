@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
 
+
+
+
+
 // fonts variables
 $title_font: "GFS Didot", serif;
 $text_font: "Raleway", sans-serif;
@@ -11,6 +15,14 @@ $color_text: white;
 $bg-color: #290e07;
 $navbar-text: #7c3000;
 $orange: #a94519;
+
+@mixin titre-orange {
+  color: $color_text; // Couleur par défaut du titre (à ajuster selon votre besoin)
+
+  @media screen and (max-width: 1440px) {
+    color: $orange; // Couleur du titre pour les écrans jusqu'à 992px de large
+  }
+}
 
 h1,
 h3,
@@ -232,6 +244,9 @@ footer {
         border: 10px solid $color_text;
         max-height: 30vh;
       }
+    }
+    #ego-change-color{
+      @include titre-orange();
     }
     .ego-big-text {
       margin: 2rem;
