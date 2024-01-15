@@ -104,8 +104,8 @@ $contentPages = [
   </div>
   <?php } ?>
   <h2 class="backlinks ego-text my-5 text-center">Liens & Amis</h2>
-  <a href="https://www.jacques-lucas.fr/" class="link text-decoration-none custom-text-color text-center" >Le site de Jacques Lucas, référent tantrique</a>
-  <a href="https://lartdelamour.fr/" class="link text-decoration-none custom-text-color text-center" >Le site de Carmen & MIchel</a>
+  <a href="https://www.jacques-lucas.fr/" target="_blank" rel="noopener noreferrer" class="link text-decoration-none custom-text-color text-center" >Le site de Jacques Lucas, référent tantrique</a>
+  <a href="https://lartdelamour.fr/" target="_blank" rel="noopener noreferrer" class="link text-decoration-none custom-text-color text-center" >Le site de Carmen & MIchel</a>
 </div>
 
 

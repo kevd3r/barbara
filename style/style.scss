@@ -88,7 +88,7 @@ main {
         --bs-emphasis-color: #{$color_text};
         font-family: $title_font;
       }
-      .citation{
+      .citation {
         font-family: $text_italic;
       }
       a {
@@ -224,6 +224,7 @@ footer {
       p {
         color: $color_text;
         text-align: justify;
+        font-size: 1.2rem;
       }
     }
     .ego-img {
@@ -290,11 +291,11 @@ footer {
   text-align: center;
   font-family: $text_italic;
 }
-.capitalize{
+.capitalize {
   text-transform: uppercase;
   font-family: $title_font;
 }
-.event-title{
+.event-title {
   font-size: 2rem;
 }
 // sass de la page admin
@@ -307,14 +308,51 @@ footer {
   }
 }
 
-.link{
-  --bs-text-opacity:0; 
-  &:hover{
+.link {
+  --bs-text-opacity: 0;
+  &:hover {
     transform: scale(1.1);
     color: $color_text;
   }
 }
-.custom-text-color{
+.custom-text-color {
   color: $orange;
   font-size: 1.5rem;
+}
+
+// quotidien sass
+.daily {
+  .daily-title{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: black;
+    padding: 0.7rem;
+    text-align: center;
+    font-family: $text_italic;
+  }
+  .daily-text {
+    p {
+      color: $color_text;
+      font-size: 1.2rem;
+    }
+    .daily-big-title{
+      font-family: $text_italic;
+      color: $orange;
+    }
+    a{
+      --bs-text-opacity: 0;
+      color: $color_text;
+      text-decoration: none;
+      &:hover{
+        color: $orange;
+        transform: scale(0.9);
+      }
+    }
+  }
+  .daily-img{
+    img {
+      border: 10px solid $color_text;
+      max-height: 30vh;
+    }
+  }
 }

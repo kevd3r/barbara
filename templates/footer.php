@@ -6,7 +6,7 @@
     <a href="tel:0619014883" aria-label="call me maybe" class="m-auto">
       <i class="bi bi-telephone fs-2"></i>
     </a>
-    <a href="./index.php" aria-label="let's go back to the homepage" c lass="m-auto"><i class="bi bi-house fs-1"></i></a>
+    <a href="./index.php" aria-label="let's go back to the homepage" class="m-auto"><i class="bi bi-house fs-1"></i></a>
     <a class="text-body-secondary m-auto" aria-label="suivez-moi sur facebook" href="https://www.facebook.com/barbara.jost.9">
       <i class="bi bi-facebook fs-2"></i>
     </a>

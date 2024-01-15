@@ -4,6 +4,7 @@ require_once __DIR__ . '/lib/session.php';
 require_once __DIR__ . '/lib/pdo.php';
 require_once __DIR__ . '/lib/user.php';
 require_once __DIR__ . '/lib/menu.php';
+
 $mainMenu["login.php"] = [
   "title" => "Login",
   "head_title" => "Connexion",

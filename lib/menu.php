@@ -5,7 +5,7 @@ $mainMenu = [
   [
     "title"=>"Accueil",
     "head_title"=>"Accueil Barbara Jost",
-    "meta_description" => "Thérapeute à Angoulins, La Rochelle, et aux environs"
+    "meta_description" => " Barbara Jost, Thérapeute à Angoulins, La Rochelle, et aux environs"
   ],
   "pour_qui.php"=>
   [
@@ -32,6 +32,13 @@ $mainMenu = [
     "title"=>"Evènements",
     "head_title"=> "B.Jost - Evènements",
     "meta_description"=> "Stages et ateliers pour tous"
+  ],
+  "quotidien.php"=>
+  [
+    "title"=>"Au quotidien",
+    "head_title"=>"Quels accompagnements",
+    "meta_description"=>"Consultations, supervisions, conférences et formations, écoute active, 
+    EDMR, CNV, tantra,psychogénéalogie, systémie"
   ],
   "souvenirs.php"=>
   [

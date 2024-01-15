@@ -20,12 +20,12 @@ require_once __DIR__ . '/templates/header.php';
 
     </div>
     <div class="ego-img col-md-4 p-0 text-center m-5">
-      <img src="./assets/images/desert_fire.jpg" alt="fire in the desert" class="img-fluid">
+      <img src="./assets/images/pourqui_1.jpg" alt="sorority in serenity feet aside feet" class="img-fluid">
     </div>
 
 
     <div class="ego-img col-md-4 p-0 text-center m-5">
-      <img src="./assets/images/sunset_medit.jpg" alt="barbara's portrait by the sea" class="img-fluid">
+      <img src="./assets/images/pourqui_2.jpg" alt="indian god's attue in a garden by night" class="img-fluid">
     </div>
     <div class="ego-text col-lg-7 col-sm-12 my-auto">
       <h3 class="ego-big-title pt-sm-2 text-center">
@@ -50,7 +50,7 @@ require_once __DIR__ . '/templates/header.php';
       </div>
     </div>
     <div class="ego-img col-md-4 p-0 text-center m-5">
-      <img src="./assets/images/alone_in_the_desert.jpg" alt="barbara's portrait in the desert" class="img-fluid">
+      <img src="./assets/images/pourqui_4.jpg" alt="woman's standing meditates looking at the sun" class="img-fluid">
     </div>
   </div>
 </div>
