@@ -4,6 +4,7 @@ require_once __DIR__ . '/../lib/session.php';
 // on va récupérer ce qui se passe dans l'URL : on pourrait avec $_GET, on va le faire avec $_SERVER
 
 $currentPage = basename($_SERVER["SCRIPT_NAME"]);
+
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +14,7 @@ $currentPage = basename($_SERVER["SCRIPT_NAME"]);
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="<?= $mainMenu[$currentPage]["meta_description"] ?>">
+  <link rel="canonical" href="<?=htmlspecialchars("https://www.barbarajost.fr" . $_SERVER['REQUEST_URI'])?>">
   <link rel="shortcut icon" href="./assets/components/favico.png" type="image/x-icon">
   <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
