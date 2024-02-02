@@ -13,7 +13,6 @@ require_once __DIR__.'/templates/header.php';
       <p>Pour faire danser le Yin et le Yang à l’intérieur de toi,</p>
       <p>Pour trouver des ressources dans tes profondeurs,  </p>
       <p>Pour surfer sur les vagues de ton émotionnel,</p>
-      
       <p>Pour accueillir ton incarnation dans ce corps, dans cette famille, dans cette histoire,</p>
       <p>Pour jouir de ta vie, telle qu’elle est, aujourd’hui, dans cet instant...</p>
     </div>

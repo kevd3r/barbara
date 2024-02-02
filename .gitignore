@@ -61,3 +61,5 @@ coverage/
 *.zip
 *.tar.gz
 
+#ignorer les .xml comme les sitemaps
+*.xml
