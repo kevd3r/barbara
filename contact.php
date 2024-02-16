@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
   // Créer une instance de PHPMailer
   $mail = new PHPMailer(TRUE);
   try {
-
+    // début du try 
     $mail->setFrom('jost.ba@barbarajost.fr', 'Barbara Jost');
     $mail->addAddress('jost.ba@barbarajost.fr', 'Princess');
     $mail->CharSet = 'UTF-8'; // Définir l'encodage des caractères
