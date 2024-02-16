@@ -8,65 +8,6 @@ require_once __DIR__ . '/lib/event.php';
 
 
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-// Inclure les fichiers de PHPMailer
-require_once './vendor/autoload.php';
-
-$message_sent = false; // Initialisation à false
-
-
-if (isset($_POST['submit'])) {
-  $firstname = htmlspecialchars($_POST['firstname']);
-  $lastname = htmlspecialchars($_POST['lastname']);
-  $email = htmlspecialchars($_POST['email']);
-  $message = htmlspecialchars($_POST['message']);
-
-  // Créer une instance de PHPMailer
-  $mail = new PHPMailer(TRUE);
-  try {
-    // début du try 
-    $mail->setFrom('jost.ba@barbarajost.fr', 'Barbara Jost');
-    $mail->addAddress('jost.ba@barbarajost.fr', 'Princess');
-    $mail->CharSet = 'UTF-8'; // Définir l'encodage des caractères
-    $mail->Encoding = 'base64';
-    $mail->Subject = 'Message du Formulaire de contact';
-    $mail->Body = $message;
-    $mail->isHTML(false);
-
-    /* SMTP parameters. */
-
-    /* Tells PHPMailer to use SMTP. */
-
-
-    $mail->isSMTP();
-
-    /* SMTP server address. */
-    $mail->Host = 'smtp.hostinger.com';
-    /* Use SMTP authentication. */
-    $mail->SMTPAuth = TRUE;
-
-    /* Set the encryption system. */
-    $mail->SMTPSecure = 'starttls';
-
-    /* SMTP authentication username. */
-    $mail->Username = 'jost.ba@barbarajost.fr';
-
-    /* SMTP authentication password. */
-    $mail->Password = 'Mathe@06';
-
-    /* Set the SMTP port. */
-    $mail->Port = 587;
-
-    /* Finally send the mail. */
-    $mail->send();
-    $message_sent = true;
-  } catch (Exception $e) {
-    echo $e->errorMessage();
-  } catch (\Exception $e) {
-    echo $e->getMessage();
-  }
-}
 
 ?>
 
