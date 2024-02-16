@@ -120,7 +120,7 @@ main {
 }
 //  ajout de classe au main conditionnel
 .menu-expanded {
-  margin-top: 25vh;
+  margin-top: 32vh;
 }
 // sass du footer commun à touites les pages
 footer {
@@ -149,7 +149,7 @@ footer {
   --bs-btn-border-color: #{$color_text};
   --bs-btn-hover-color: #{$bg-color};
   --bs-btn-hover-bg: #{$color_text};
-  --bs-btn-hover-border-color: #{$bg-color};
+  --bs-btn-hover-border-color: none;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #{$bg-color};
   --bs-btn-active-bg: #{$color_text};
@@ -371,3 +371,47 @@ footer {
     }
   }
 }
+// sass de la page contact
+.contact-main{
+
+  .contact-first{
+    border-radius: 2rem;
+    border: 2px solid $color-text;
+    h2{
+      font-size: 1.5rem;
+      font-family: $text-font;
+      color: $color-text;
+    }
+    p{
+      color: $color-text;
+      font-family: $text-font;
+      a{
+        text-decoration: none;
+        color: $color-text;
+        font-weight: bold;
+      }
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+  .formulaire{
+    border: 2px solid $color-text;
+    border-radius: 2rem;
+    .form-title{
+      h2{
+        color: $color-text;
+        font-size: 1.5rem;
+        font-family: $text-font;
+      }
+    }
+    .form-label{
+      color: $color-text;
+      font-family: $text-font;
+    }
+    .form-input{
+      font-family: $text-font;
+    }
+  }
+}
+

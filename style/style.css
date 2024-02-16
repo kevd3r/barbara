@@ -93,7 +93,7 @@ main .container .row a:hover {
 }
 
 .menu-expanded {
-  margin-top: 25vh;
+  margin-top: 32vh;
 }
 
 footer {
@@ -121,7 +121,7 @@ footer .bi {
   --bs-btn-border-color: white;
   --bs-btn-hover-color: #290e07;
   --bs-btn-hover-bg: white;
-  --bs-btn-hover-border-color: #290e07;
+  --bs-btn-hover-border-color: none;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #290e07;
   --bs-btn-active-bg: white;
@@ -317,4 +317,42 @@ footer .bi {
 .daily .daily-img img {
   border: 10px solid white;
   max-height: 30vh;
+}
+
+.contact-main .contact-first {
+  border-radius: 2rem;
+  border: 2px solid white;
+}
+.contact-main .contact-first h2 {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+.contact-main .contact-first p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.contact-main .contact-first p a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.contact-main .contact-first p:hover {
+  transform: scale(1.1);
+}
+.contact-main .formulaire {
+  border: 2px solid white;
+  border-radius: 2rem;
+}
+.contact-main .formulaire .form-title h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
+.contact-main .formulaire .form-label {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.contact-main .formulaire .form-input {
+  font-family: "Raleway", sans-serif;
 }/*# sourceMappingURL=style.css.map */

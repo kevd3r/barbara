@@ -8,8 +8,7 @@ const navbarButton = document.querySelector(".navbar-toggler");
 const navbarButtonClasses = navbarButton.classList;
 
 navbarButton.addEventListener("click", function () {
-  console.log("match");
-  console.log(div.classList.value);
+
   navbarButtonClasses.forEach((e) =>
     e == "collapsed"
       ? main.classList.remove("menu-expanded")

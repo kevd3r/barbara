@@ -45,5 +45,12 @@ $mainMenu = [
     "title"=>"Souvenirs",
     "head_title"=>"Souvenirs des ateliers",
     "meta_description"=>"Souvenirs des stages, ateliers et voyages initiatiques, commentaires et liens vers mes amis"
+  ],
+  "contact.php"=>
+  [
+    "title"=>"Contact",
+    "head_title"=>"Contactez-moi !",
+    "meta_description"=>"Contactez-moi pour oser être vous à La Rochelle, Angoulins, 
+    en Charente-Maritime, ou en visio de partout en France"
   ]
 ];
