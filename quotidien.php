@@ -87,13 +87,15 @@ require_once __DIR__ . '/templates/header.php';
         Consultations
       </h2>
 
-      <p class="p-2 m-0">dans les établissements qui le demandent</p>
-      <p class="p-2 m-0">pour prendre de la hauteur, sur l’ensemble de sa pratique,</p>
-      <p class="p-2 m-0">pour communiquer avec ses collègues sur son être, et pas seulement sur son faire,</p>
-      <p class="p-2 m-0">pour apprendre à interagir, et à se soutenir en équipe,</p>
-      <p class="p-2 m-0">pour fonctionner en conscience dans son travail quotidien,</p>
-      <p class="p-2 m-0">pour relâcher la pression,</p>
-      <p class="p-2 mb-3">pour dézoomer, et élargir.</p>
+      <p class="p-2 m-0">A Angoulins, à La Rochelle</p>
+      <p class="p-2 m-0">Par Skype, par téléphone.</p>
+
+      
+      <p class="p-2 m-0">N'hésitez pas à me contacter</p>
+      <p class="p-2 m-0">Par téléphone à <a href="tel:0619014883"><strong>ce numéro</strong></a></p>
+      <p class="p-2 m-0">Par email <a href="mailto:jost.ba@barbarajost.fr"><strong>ICI</strong></a></p>
+      <p class="p-2 m-0">Pour enfin oser être qui vous êtes.</p>
+      <p class="p-2 mb-3">Pour respirer, enfin...</p>
       <h4 class="daily-big-title pt-sm-2 text-center">
         Ils m'ont fait confiance :
       </h4>
